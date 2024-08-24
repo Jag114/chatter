@@ -5,6 +5,7 @@ import { Message } from '../interfaces/Message';
 function ChatBox(props:Message) {
   const [count, setCount] = useState(0); 
   const {text, author} = props;
+  
   const handleClick = () => {
     setCount(prevCount => prevCount + 1);
   }
