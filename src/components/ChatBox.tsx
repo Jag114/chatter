@@ -1,6 +1,7 @@
-import { useState } from 'react'
-import '../styles/ChatBox.css'
 import { Message } from '../interfaces/Message';
+import { useState } from 'react'
+
+import '../styles/ChatBox.css'
 
 function ChatBox(props:Message) {
   const [count, setCount] = useState(0); 

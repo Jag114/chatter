@@ -1,6 +1,8 @@
-import '../styles/Chat.css'
 import ChatBox from './ChatBox';
+
 import messages from "../data/messages.json"
+
+import '../styles/Chat.css'
 
 function Chat() {
 
